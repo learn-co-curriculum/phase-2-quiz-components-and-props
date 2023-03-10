@@ -1,6 +1,6 @@
 ---
-id: 18302
-course_id: 3264
+id: 43043
+course_id: 6667
 repo: phase-2-quiz-components-and-props
 ---
 

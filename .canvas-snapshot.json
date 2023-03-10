@@ -1,10 +1,10 @@
 {
   "quiz": {
-    "id": 18302,
+    "id": 43043,
     "title": "Components and Props Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18302",
-    "mobile_url": "https://learning.flatironschool.com/courses/3264/quizzes/18302?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-components-and-props\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-components-and-props/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "html_url": "https://learning.flatironschool.com/courses/6667/quizzes/43043",
+    "mobile_url": "https://learning.flatironschool.com/courses/6667/quizzes/43043?force_user=1&persist_headless=1",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-components-and-props\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-components-and-props/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -26,10 +26,10 @@
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_18302"
+      "asset_string": "quizzes:quiz_43043"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": "until_after_last_attempt",
+    "hide_results": null,
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -45,7 +45,7 @@
     "require_lockdown_browser": false,
     "require_lockdown_browser_for_results": false,
     "require_lockdown_browser_monitor": false,
-    "lockdown_browser_monitor_data": null,
+    "lockdown_browser_monitor_data": "",
     "speed_grader_url": null,
     "permissions": {
       "manage": true,
@@ -60,78 +60,76 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18302/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18302/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18302/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43043/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43043/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43043/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18302/submission_versions",
-    "assignment_id": 124631,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/6667/quizzes/43043/submission_versions",
+    "assignment_id": 224919,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 6202,
+    "assignment_group_id": 19905,
     "show_correct_answers_last_attempt": true,
-    "version_number": 5,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": null,
+    "migration_id": "g018fe05f0bf5052ef697061eee583a37",
+    "in_paced_course": false,
     "question_types": [
-      "multiple_answers_question",
-      "multiple_choice_question",
-      "fill_in_multiple_blanks_question",
-      "true_false_question",
-      "short_answer_question"
+
     ]
   },
   "questions": [
     {
-      "quiz_id": 18302,
-      "id": 123916,
+      "id": 291532,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128060,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "Import/Export",
       "question_type": "multiple_answers_question",
       "question_text": "<p>I want to render the Card component inside of my Container component. How would\nI properly export the Card component? Select all that apply.</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68024\">Organizing Code with Import/Export</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Organizing Code with Import/Export",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224952\">Organizing Code with Import/Export</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_6616",
           "id": 6616,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! We can use the <code>export default</code> keywords to export a variable, and\nimport it with <code>import</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"nx\">Card</span><span class=\"p\">;</span>\n</code></pre></div>"
+          "text": "function Card({ title, subtitle }) { return ( div h1{title}/h1 p{subtitle}/p /div ); } export default Card;",
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"nx\">Card</span><span class=\"p\">;</span>\n</code></pre></div>",
+          "comments": "Correct! We can use the export default keywords to export a variable, and import it with import.",
+          "comments_html": "Correct! We can use the <code>export default</code> keywords to export a variable, and\nimport it with <code>import</code>."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3375",
           "id": 3375,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! We can use the <code>export default</code> keywords to export a variable or\nfunction, and import it with <code>import</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
+          "text": "export default function Card({ title, subtitle }) { return ( div h1{title}/h1 p{subtitle}/p /div ); }",
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+          "comments": "Correct! We can use the export default keywords to export a variable or function, and import it with import.",
+          "comments_html": "Correct! We can use the <code>export default</code> keywords to export a variable or\nfunction, and import it with <code>import</code>."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2818",
           "id": 2818,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Not quite. Be sure you are exporting the correct variable!</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n<span class=\"k\">export</span> <span class=\"nx\">cardComponent</span><span class=\"p\">;</span>\n</code></pre></div>"
+          "text": "function Card({ title, subtitle }) { return ( div h1{title}/h1 p{subtitle}/p /div ); } export cardComponent;",
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n<span class=\"k\">export</span> <span class=\"nx\">cardComponent</span><span class=\"p\">;</span>\n</code></pre></div>",
+          "comments": "Not quite. Be sure you are exporting the correct variable!"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9006",
           "id": 9006,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -142,53 +140,55 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123917,
+      "id": 291533,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128061,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "Import/Export",
       "question_type": "multiple_choice_question",
       "question_text": "<p>I want to render the Card component inside of my Container component. How would\nI properly import the Card component?</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"c1\">// src/Card.js</span>\n<span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"nx\">Card</span><span class=\"p\">;</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68024\">Organizing Code with Import/Export</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Organizing Code with Import/Export",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224952\">Organizing Code with Import/Export</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_8733",
           "id": 8733,
-          "text": "",
+          "text": "// src/App.js import Card from \"./Card\";",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"c1\">// src/App.js</span>\n<span class=\"k\">import</span> <span class=\"nx\">Card</span> <span class=\"k\">from</span> <span class=\"dl\">\"</span><span class=\"s2\">./Card</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! When importing a <strong>default export</strong>, we use the <strong>default import</strong>\nsyntax along with a relative path to the file where the export is declared.</p>",
-          "weight": 100.0
+          "comments": "Correct! When importing a default export, we use the default import syntax along with a relative path to the file where the export is declared.",
+          "comments_html": "Correct! When importing a <strong>default export</strong>, we use the <strong>default import</strong>\nsyntax along with a relative path to the file where the export is declared."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3920",
           "id": 3920,
-          "text": "",
+          "text": "// src/App.js import { Card } from \"./Card\";",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"c1\">// src/App.js</span>\n<span class=\"k\">import</span> <span class=\"p\">{</span> <span class=\"nx\">Card</span> <span class=\"p\">}</span> <span class=\"k\">from</span> <span class=\"dl\">\"</span><span class=\"s2\">./Card</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The <strong>named import</strong> syntax (with curly parentheses) only works\nwith <strong>named exports</strong>, not <strong>default exports</strong>.</p>",
-          "weight": 0.0
+          "comments": "Not quite. The named import syntax (with curly parentheses) only works with named exports, not default exports.",
+          "comments_html": "Not quite. The <strong>named import</strong> syntax (with curly parentheses) only works\nwith <strong>named exports</strong>, not <strong>default exports</strong>."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4124",
           "id": 4124,
-          "text": "",
+          "text": "// src/App.js import default Card from './Card'",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"c1\">// src/App.js</span>\n<span class=\"k\">import</span> <span class=\"k\">default</span> <span class=\"nx\">Card</span> <span class=\"k\">from</span> <span class=\"dl\">'</span><span class=\"s1\">./Card</span><span class=\"dl\">'</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. This syntax isn't valid: we don't use the <code>default</code> keyword with\nthe <code>import</code> keyword, only with the <code>export</code> keyword.</p>",
-          "weight": 0.0
+          "comments": "Not quite. This syntax isn't valid: we don't use the default keyword with the import keyword, only with the export keyword.",
+          "comments_html": "Not quite. This syntax isn't valid: we don't use the <code>default</code> keyword with\nthe <code>import</code> keyword, only with the <code>export</code> keyword."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9562",
           "id": 9562,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -199,53 +199,53 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123918,
+      "id": 291534,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 126349,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 3,
       "question_name": "Components",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following components are valid? Select all that apply.</p>",
+      "question_text": "Which of the following components are valid? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68022\">React Components Basics</a></li><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68029\">Props Destructuring and Default Values</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:React Components BasicsProps Destructuring and Default Values",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224976\">React Components Basics</a></li><li><a href=\"/courses/6667/assignments/224971\">Props Destructuring and Default Values</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_899",
           "id": 899,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
+          "text": "function Card() { return ( div h1React/h1 pComponent/p /div ); }",
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_6035",
           "id": 6035,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
+          "text": "function Card({ title, subtitle }) { return ( div h1{title}/h1 p{subtitle}/p /div ); }",
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3922",
           "id": 3922,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This isn't a valid component, since all React components must start with a\ncapital letter. Since <code>card</code> is lowercase, it's not a valid component,\nbecause React would treat this as a DOM element rather than a function component\nwhen rendered:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">card</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n<span class=\"c1\">// produces these DOM elements:</span>\n<span class=\"c1\">// &lt;div id=\"root\"&gt;</span>\n<span class=\"c1\">//   &lt;card&gt;&lt;/card&gt;</span>\n<span class=\"c1\">// &lt;/div&gt;</span>\n</code></pre></div>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
+          "text": "function card() { return ( div h1React/h1 pComponent/p /div ); }",
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+          "comments": "This isn't a valid component, since all React components must start with a capital letter. Since card is lowercase, it's not a valid component, because React would treat this as a DOM element rather than a function component when rendered: ReactDOM.render(card /, document.querySelector(\"#root\")); // produces these DOM elements: // div id=\"root\" // card/card // /div",
+          "comments_html": "<p>This isn't a valid component, since all React components must start with a\ncapital letter. Since <code>card</code> is lowercase, it's not a valid component,\nbecause React would treat this as a DOM element rather than a function component\nwhen rendered:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">card</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n<span class=\"c1\">// produces these DOM elements:</span>\n<span class=\"c1\">// &lt;div id=\"root\"&gt;</span>\n<span class=\"c1\">//   &lt;card&gt;&lt;/card&gt;</span>\n<span class=\"c1\">// &lt;/div&gt;</span>\n</code></pre></div>"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9500",
           "id": 9500,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>This is not a valid component because it doesn't return JSX. Functions defined\nwith the <code>function</code> keyword must explicitly return using the <code>return</code> keyword.</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;;</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
+          "text": "function Card() { div h1React/h1 pComponent/p /div; }",
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;;</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+          "comments": "This is not a valid component because it doesn't return JSX. Functions defined with the function keyword must explicitly return using the return keyword.",
+          "comments_html": "This is not a valid component because it doesn't return JSX. Functions defined\nwith the <code>function</code> keyword must explicitly return using the <code>return</code> keyword."
         }
       ],
       "variables": null,
@@ -256,44 +256,38 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123919,
+      "id": 291535,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 126350,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 4,
       "question_name": "Components",
       "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>A React component is a function that takes in [blank1] and returns [blank2].</p>",
+      "question_text": "A React component is a function that takes in [blank1] and returns [blank2].",
       "points_possible": 1.0,
       "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68022\">React Components Basics</a></li></ul><p></p>",
+      "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
+      "neutral_comments": "Source/s:React Components Basics",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224976\">React Components Basics</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
           "id": 9063,
           "text": "props",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
           "blank_id": "blank1"
         },
         {
+          "weight": 100,
           "id": 4127,
           "text": "JSX",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
           "blank_id": "blank2"
         },
         {
+          "weight": 100,
           "id": 1502,
           "text": "jsx",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
           "blank_id": "blank2"
         }
       ],
@@ -305,35 +299,37 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123920,
+      "id": 291536,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 126351,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 5,
       "question_name": "Components",
       "question_type": "true_false_question",
-      "question_text": "<p>A React function component must start with a capital letter.</p>",
+      "question_text": "A React function component must start with a capital letter.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68022\">React Components Basics</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:React Components Basics",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224976\">React Components Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Correct! React differentiates between a component and a regular DOM element\nbased on capitalization. For example, making an <code>&lt;article&gt;</code> component with a\nlowercase name wouldn't work:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>\n<p>Trying to render this component would result in React rendering an\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code> HTML element</a>\ninstead of the <code>&lt;article&gt;</code> component.</p>\n\n<p>Using an uppercase name for the function fixes this problem:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "text": "True",
           "weight": 100,
-          "id": 6761
+          "migration_id": "RESPONSE_6761",
+          "id": 6761,
+          "text": "True",
+          "comments": "Correct! React differentiates between a component and a regular DOM element based on capitalization. For example, making an article component with a lowercase name wouldn't work: function article() { return ( div h1React/h1 pComponent/p /div ); } ReactDOM.render(article /, document.getElementById(\"root\"));  Trying to render this component would result in React rendering an article HTML element instead of the article component. Using an uppercase name for the function fixes this problem: function Article() { return ( div h1React/h1 pComponent/p /div ); } ReactDOM.render(Article /, document.getElementById(\"root\"));",
+          "comments_html": "<p>Correct! React differentiates between a component and a regular DOM element\nbased on capitalization. For example, making an <code>&lt;article&gt;</code> component with a\nlowercase name wouldn't work:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>\n<p>Trying to render this component would result in React rendering an\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code> HTML element</a>\ninstead of the <code>&lt;article&gt;</code> component.</p>\n\n<p>Using an uppercase name for the function fixes this problem:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>"
         },
         {
-          "comments": "",
-          "comments_html": "<p>React differentiates between a component and a regular DOM element based on\ncapitalization. For example, making an <code>&lt;article&gt;</code> component with a lowercase name\nwouldn't work:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>\n<p>Trying to render this component would result in React rendering an\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code> HTML element</a>\ninstead of the <code>&lt;article&gt;</code> component.</p>\n\n<p>Using an uppercase name for the function fixes this problem:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "text": "False",
           "weight": 0,
-          "id": 2703
+          "migration_id": "RESPONSE_2703",
+          "id": 2703,
+          "text": "False",
+          "comments": "React differentiates between a component and a regular DOM element based on capitalization. For example, making an article component with a lowercase name wouldn't work: function article() { return ( div h1React/h1 pComponent/p /div ); } ReactDOM.render(article /, document.getElementById(\"root\"));  Trying to render this component would result in React rendering an article HTML element instead of the article component. Using an uppercase name for the function fixes this problem: function Article() { return ( div h1React/h1 pComponent/p /div ); } ReactDOM.render(Article /, document.getElementById(\"root\"));",
+          "comments_html": "<p>React differentiates between a component and a regular DOM element based on\ncapitalization. For example, making an <code>&lt;article&gt;</code> component with a lowercase name\nwouldn't work:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>\n<p>Trying to render this component would result in React rendering an\n<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article\"><code>&lt;article&gt;</code> HTML element</a>\ninstead of the <code>&lt;article&gt;</code> component.</p>\n\n<p>Using an uppercase name for the function fixes this problem:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Article</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">getElementById</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>"
         }
       ],
       "variables": null,
@@ -344,53 +340,55 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123921,
+      "id": 291537,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 126352,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 6,
       "question_name": "Props",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Given the following code, what would appear in the console?</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Parent</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"kd\">const</span> <span class=\"nx\">header</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">Hello</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n  <span class=\"kd\">const</span> <span class=\"nx\">contents</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">World</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n\n  <span class=\"k\">return</span> <span class=\"p\">&lt;</span><span class=\"nc\">Child</span> <span class=\"na\">title</span><span class=\"p\">=</span><span class=\"si\">{</span><span class=\"nx\">header</span><span class=\"si\">}</span> <span class=\"na\">body</span><span class=\"p\">=</span><span class=\"si\">{</span><span class=\"nx\">contents</span><span class=\"si\">}</span> <span class=\"na\">minutesToRead</span><span class=\"p\">=</span><span class=\"si\">{</span><span class=\"mi\">10</span><span class=\"si\">}</span> <span class=\"p\">/&gt;;</span>\n<span class=\"p\">}</span>\n\n<span class=\"kd\">function</span> <span class=\"nx\">Child</span><span class=\"p\">(</span><span class=\"nx\">props</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">props</span><span class=\"p\">);</span>\n  <span class=\"c1\">// ... return JSX</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68027\">Props Basics</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Props Basics",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224969\">Props Basics</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3998",
           "id": 3998,
-          "text": "",
+          "text": "{ title: \"Hello\", body: \"World\", minutesToRead: 10 }",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Hello</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"nx\">body</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">World</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">minutesToRead</span><span class=\"p\">:</span> <span class=\"mi\">10</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! The <code>props</code> parameter in every component is an object of key/value\npairs based on the attributes assigned by the parent component.</p>",
-          "weight": 100.0
+          "comments": "Correct! The props parameter in every component is an object of key/value pairs based on the attributes assigned by the parent component.",
+          "comments_html": "Correct! The <code>props</code> parameter in every component is an object of key/value\npairs based on the attributes assigned by the parent component."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4918",
           "id": 4918,
-          "text": "",
+          "text": "{ header: \"Hello\", contents: \"World\", minutesToRead: 10 }",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">header</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">Hello</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">contents</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">World</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">minutesToRead</span><span class=\"p\">:</span> <span class=\"mi\">10</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The <strong>keys</strong> on the <code>props</code> object are based on the attributes\nassigned by the parent component, which in this case are <code>title</code>, <code>body</code>, and\n<code>minutesToRead</code>.</p>",
-          "weight": 0.0
+          "comments": "Not quite. The keys on the props object are based on the attributes assigned by the parent component, which in this case are title, body, and minutesToRead.",
+          "comments_html": "Not quite. The <strong>keys</strong> on the <code>props</code> object are based on the attributes\nassigned by the parent component, which in this case are <code>title</code>, <code>body</code>, and\n<code>minutesToRead</code>."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7363",
           "id": 7363,
-          "text": "",
+          "text": "{ title: \"header\", body: \"contents\", minutesToRead: 10 }",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"p\">{</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">title</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">header</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n  <span class=\"nx\">body</span><span class=\"p\">:</span> <span class=\"dl\">\"</span><span class=\"s2\">contents</span><span class=\"dl\">\"</span><span class=\"p\">,</span>\n<span class=\"err\">&nbsp;</span> <span class=\"nx\">minutesToRead</span><span class=\"p\">:</span> <span class=\"mi\">10</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The <strong>keys</strong> on this <code>props</code> object are correct, but the values are\nbased on what data is held in each variable in the parent component, not the\nnames of the variables.</p>",
-          "weight": 0.0
+          "comments": "Not quite. The keys on this props object are correct, but the values are based on what data is held in each variable in the parent component, not the names of the variables.",
+          "comments_html": "Not quite. The <strong>keys</strong> on this <code>props</code> object are correct, but the values are\nbased on what data is held in each variable in the parent component, not the\nnames of the variables."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1952",
           "id": 1952,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -401,35 +399,33 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123922,
+      "id": 291538,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128063,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 7,
       "question_name": "Props",
       "question_type": "short_answer_question",
-      "question_text": "<p>We use ______ to pass data into a component.</p>",
+      "question_text": "We use ______ to pass data into a component.",
       "points_possible": 1.0,
       "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68027\">Props Basics</a></li></ul><p></p>",
+      "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
+      "neutral_comments": "Source/s:Props Basics",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224969\">Props Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 1530,
           "text": "props",
+          "weight": 100,
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "id": 1530
         },
         {
-          "id": 2865,
           "text": "Props",
+          "weight": 100,
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "id": 2865
         }
       ],
       "variables": null,
@@ -440,53 +436,46 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123923,
+      "id": 291539,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128034,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 8,
       "question_name": "Components",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>What is a React component? Select all that apply.</p>",
+      "question_text": "What is a React component? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68022\">React Components Basics</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:React Components Basics",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224976\">React Components Basics</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5963",
           "id": 5963,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "html": "<p>A function that takes in props and returns JSX.</p>"
+          "text": "A function that takes in props and returns JSX."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_7019",
           "id": 7019,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "html": "<p>A reusable function for creating UI elements.</p>"
+          "text": "A reusable function for creating UI elements."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9907",
           "id": 9907,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "html": "<p>An HTML file.</p>"
+          "text": "An HTML file."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_6222",
           "id": 6222,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -497,53 +486,53 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123924,
+      "id": 291540,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128065,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 9,
       "question_name": "Lists and Keys",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>When should you use the <code>key</code> prop?</p>",
+      "question_text": "When should you use the <code>key</code> prop?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/assignments/68030\">Lists and Keys</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Lists and Keys",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/assignments/224947\">Lists and Keys</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_4457",
           "id": 4457,
-          "text": "",
-          "html": "<p>When rendering an array of components.</p>",
-          "comments": "",
-          "comments_html": "<p>Correct! The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components.</p>",
-          "weight": 100.0
+          "text": "When rendering an array of components.",
+          "comments": "Correct! The key prop is a special prop that React uses to help optimize performance when rendering arrays of components.",
+          "comments_html": "Correct! The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_4207",
           "id": 4207,
-          "text": "",
-          "html": "<p>If two components are siblings.</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components. React can render two sibling\ncomponents just fine with no <code>key</code> prop provided:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Parent</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Sibling</span> <span class=\"p\">/&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Sibling</span> <span class=\"p\">/&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "weight": 0.0
+          "text": "If two components are siblings.",
+          "comments": "Not quite. The key prop is a special prop that React uses to help optimize performance when rendering arrays of components. React can render two sibling components just fine with no key prop provided: function Parent() { return ( div Sibling / Sibling / /div ); }",
+          "comments_html": "<p>Not quite. The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components. React can render two sibling\ncomponents just fine with no <code>key</code> prop provided:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Parent</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Sibling</span> <span class=\"p\">/&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Sibling</span> <span class=\"p\">/&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9446",
           "id": 9446,
-          "text": "",
-          "html": "<p>Any time <code>.map</code> is used in a component.</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components. While we often use the <code>key</code>\nprop when using <code>.map</code> to create an array of components, just using <code>.map</code> in\na component isn't enough to indicate the need for the <code>key</code> prop.</p>",
-          "weight": 0.0
+          "text": "Any time .map is used in a component.",
+          "html": "Any time <code>.map</code> is used in a component.",
+          "comments": "Not quite. The key prop is a special prop that React uses to help optimize performance when rendering arrays of components. While we often use the key prop when using .map to create an array of components, just using .map in a component isn't enough to indicate the need for the key prop.",
+          "comments_html": "Not quite. The <code>key</code> prop is a special prop that React uses to help optimize\nperformance when rendering arrays of components. While we often use the <code>key</code>\nprop when using <code>.map</code> to create an array of components, just using <code>.map</code> in\na component isn't enough to indicate the need for the <code>key</code> prop."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5914",
           "id": 5914,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -554,61 +543,56 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123925,
+      "id": 291541,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128059,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 10,
       "question_name": "JSX",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following are true of JSX? Select all that apply.</p>",
+      "question_text": "Which of the following are true of JSX? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/writing-jsx\">Writing JSX</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Writing JSX",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/writing-jsx\">Writing JSX</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_9560",
           "id": 9560,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "html": "<p>JSX stands for JavaScript XML.</p>"
+          "text": "JSX stands for JavaScript XML."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_1680",
           "id": 1680,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "html": "<p>JSX is an abstraction of the DOM.</p>"
+          "text": "JSX is an abstraction of the DOM."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_6180",
           "id": 6180,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>While they may look similar, there are a few key differences between HTML and\nJSX:</p>\n\n<ul>\n<li>Certain element attributes are different in JSX and HTML (class vs className)</li>\n<li>JSX must be transpiled into valid JavaScript, which React then uses to create DOM elements</li>\n</ul>",
-          "weight": 0.0,
-          "html": "<p>JSX and HTML are interchangeable.</p>"
+          "text": "JSX and HTML are interchangeable.",
+          "comments": "While they may look similar, there are a few key differences between HTML and JSX:  Certain element attributes are different in JSX and HTML (class vs className) JSX must be transpiled into valid JavaScript, which React then uses to create DOM elements",
+          "comments_html": "<p>While they may look similar, there are a few key differences between HTML and\nJSX:</p>\n\n<ul>\n<li>Certain element attributes are different in JSX and HTML (class vs className)</li>\n<li>JSX must be transpiled into valid JavaScript, which React then uses to create DOM elements</li>\n</ul>"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3331",
           "id": 3331,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>On its own, JSX isn't valid JavaScript and is not part of the language. JSX\nmust be transpiled into valid JavaScript using a tool like Babel.</p>",
-          "weight": 0.0,
-          "html": "<p>JSX is a valid form of JavaScript syntax.</p>"
+          "text": "JSX is a valid form of JavaScript syntax.",
+          "comments": "On its own, JSX isn't valid JavaScript and is not part of the language. JSX must be transpiled into valid JavaScript using a tool like Babel.",
+          "comments_html": "On its own, JSX isn't valid JavaScript and is not part of the language. JSX\nmust be transpiled into valid JavaScript using a tool like Babel."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2303",
           "id": 2303,
-          "text": "",
-          "comments": "",
-          "comments_html": "",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "text": "I don't know.",
+          "html": "I don't know."
         }
       ],
       "variables": null,
@@ -619,35 +603,37 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 18302,
-      "id": 123926,
+      "id": 291542,
+      "quiz_id": 43043,
       "quiz_group_id": null,
-      "assessment_question_id": 128035,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 11,
       "question_name": "Components",
-      "question_type": "true_false_question",
+      "question_type": "multiple_choice_question",
       "question_text": "<p>The following is a valid React component:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">App</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nc\">Comment</span> <span class=\"p\">/&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/writing-jsx\">Writing JSX</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Writing JSX",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/writing-jsx\">Writing JSX</a></li></ul><p></p>",
       "answers": [
         {
-          "comments": "",
-          "comments_html": "<p>Correct! A component can only return one top-level element. To return multiple\ntop-level elements, you can use a\n<a href=\"https://reactjs.org/docs/fragments.html\">Fragment</a>.</p>",
-          "text": "False",
           "weight": 100,
-          "id": 1000
+          "migration_id": "RESPONSE_1000",
+          "id": 1000,
+          "text": "False",
+          "comments": "Correct! A component can only return one top-level element. To return multiple top-level elements, you can use a Fragment.",
+          "comments_html": "Correct! A component can only return one top-level element. To return multiple\ntop-level elements, you can use a\n<a href=\"https://reactjs.org/docs/fragments.html\">Fragment</a>."
         },
         {
-          "comments": "",
-          "comments_html": "<p>A component can only return one element. We'd need to wrap the returned\ncomponents in an enclosing tag or a\n<a href=\"https://reactjs.org/docs/fragments.html\">Fragment</a> like this to make it\nvalid:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">App</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Comment</span> <span class=\"p\">/&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
-          "text": "Yes",
           "weight": 0,
-          "id": 7376
+          "migration_id": "RESPONSE_7376",
+          "id": 7376,
+          "text": "Yes",
+          "comments": "A component can only return one element. We'd need to wrap the returned components in an enclosing tag or a Fragment like this to make it valid: function App() { return ( div Article / Comment / /div ); }",
+          "comments_html": "<p>A component can only return one element. We'd need to wrap the returned\ncomponents in an enclosing tag or a\n<a href=\"https://reactjs.org/docs/fragments.html\">Fragment</a> like this to make it\nvalid:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">App</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Article</span> <span class=\"p\">/&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nc\">Comment</span> <span class=\"p\">/&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         }
       ],
       "variables": null,
