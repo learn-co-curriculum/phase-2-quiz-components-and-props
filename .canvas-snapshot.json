@@ -99,7 +99,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/organizing-code-with-import-slash-export\">Organizing Code with Import/Export</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8601,
+          "id": "8601",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>export default</code> keywords to export a variable, and\nimport it with <code>import</code>.</p>",
@@ -107,7 +107,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span>h1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span>p&gt;\n    div&gt;\n  );\n}\n\nexport default Card;\n</code></pre></div>"
         },
         {
-          "id": 1439,
+          "id": "1439",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! We can use the <code>export default</code> keywords to export a variable or\nfunction, and import it with <code>import</code>.</p>",
@@ -115,7 +115,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"k\">export</span> <span class=\"k\">default</span> <span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span>h1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span>p&gt;\n    div&gt;\n  );\n}\n</code></pre></div>"
         },
         {
-          "id": 9955,
+          "id": "9955",
           "text": "",
           "comments": "",
           "comments_html": "<p>Not quite. Be sure you are exporting the correct variable!</p>",
@@ -123,7 +123,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span>h1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span>p&gt;\n    div&gt;\n  );\n}\nexport cardComponent;\n</code></pre></div>"
         },
         {
-          "id": 4917,
+          "id": "4917",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -213,36 +213,36 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-components-basics\">React Components Basics</a></li><li><a href=\"/courses/6667/pages/props-destructuring-and-default-values\">Props Destructuring and Default Values</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 293,
+          "id": 3345,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>Reacth1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Componentp&gt;\n    div&gt;\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
         },
         {
-          "id": 1285,
+          "id": 1777,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span>h1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span>p&gt;\n    div&gt;\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
         },
         {
-          "id": 880,
+          "id": 9283,
           "text": "",
           "comments": "",
-          "comments_html": "<p>This isn't a valid component, since all React components must start with a\ncapital letter. Since <code>card</code> is lowercase, it's not a valid component, because\nReact would treat this as a DOM element rather than a function component when\nrendered:</p>\n<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(&lt;</span><span class=\"nt\">card</span> <span class=\"p\">/&gt;,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#root</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n<span class=\"c1\">// produces these DOM elements:</span>\n<span class=\"c1\">// </span>\n<span class=\"c1\">//   </span>\n<span class=\"c1\">//</span>\n</code></pre></div>",
+          "comments_html": "<p>This isn't a valid component, since all React components must start with a\ncapital letter. Since <code>card</code> is lowercase, it's not a valid component, because\nReact would treat this as a DOM element rather than a function component when\nrendered.</p>",
           "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>Reacth1&gt;\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Componentp&gt;\n    div&gt;\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
         },
         {
-          "id": 4160,
+          "id": 9241,
           "text": "",
           "comments": "",
           "comments_html": "<p>This is not a valid component because it doesn't return JSX. Functions defined\nwith the <code>function</code> keyword must explicitly return using the <code>return</code> keyword.</p>",
           "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>Reacth1&gt;\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Componentp&gt;\n  div&gt;;\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n}\n</code></pre></div>"
         }
       ],
       "variables": null,
@@ -454,7 +454,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-components-basics\">React Components Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7027,
+          "id": "7027",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -462,7 +462,7 @@
           "html": "<p>A function that takes in props and returns JSX.</p>"
         },
         {
-          "id": 5074,
+          "id": "5074",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -470,7 +470,7 @@
           "html": "<p>A reusable function for creating UI elements.</p>"
         },
         {
-          "id": 952,
+          "id": "952",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -478,7 +478,7 @@
           "html": "<p>An HTML file.</p>"
         },
         {
-          "id": 7090,
+          "id": "7090",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -568,7 +568,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/writing-jsx\">Writing JSX</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3878,
+          "id": "3878",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -576,7 +576,7 @@
           "html": "<p>JSX stands for JavaScript XML.</p>"
         },
         {
-          "id": 1781,
+          "id": "1781",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -584,7 +584,7 @@
           "html": "<p>JSX is an abstraction of the DOM.</p>"
         },
         {
-          "id": 8675,
+          "id": "8675",
           "text": "",
           "comments": "",
           "comments_html": "<p>While they may look similar, there are a few key differences between HTML and\nJSX:</p>\n\n<ul>\n<li>Certain element attributes are different in JSX and HTML (class vs className)</li>\n<li>JSX must be transpiled into valid JavaScript, which React then uses to create DOM elements</li>\n</ul>",
@@ -592,7 +592,7 @@
           "html": "<p>JSX and HTML are interchangeable.</p>"
         },
         {
-          "id": 5879,
+          "id": "5879",
           "text": "",
           "comments": "",
           "comments_html": "<p>On its own, JSX isn't valid JavaScript and is not part of the language. JSX must\nbe transpiled into valid JavaScript using a tool like Babel.</p>",
@@ -600,7 +600,7 @@
           "html": "<p>JSX is a valid form of JavaScript syntax.</p>"
         },
         {
-          "id": 5678,
+          "id": "5678",
           "text": "",
           "comments": "",
           "comments_html": "",
