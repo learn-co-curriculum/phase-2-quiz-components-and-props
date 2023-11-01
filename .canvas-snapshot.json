@@ -213,36 +213,36 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-components-basics\">React Components Basics</a></li><li><a href=\"/courses/6667/pages/props-destructuring-and-default-values\">Props Destructuring and Default Values</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3345,
+          "id": 5365,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "id": 1777,
+          "id": 8990,
           "text": "",
           "comments": "",
           "comments_html": "",
           "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">({</span> <span class=\"nx\">title</span><span class=\"p\">,</span> <span class=\"nx\">subtitle</span> <span class=\"p\">})</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">title</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span><span class=\"si\">{</span><span class=\"nx\">subtitle</span><span class=\"si\">}</span><span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "id": 9283,
+          "id": 2847,
           "text": "",
           "comments": "",
           "comments_html": "<p>This isn't a valid component, since all React components must start with a\ncapital letter. Since <code>card</code> is lowercase, it's not a valid component, because\nReact would treat this as a DOM element rather than a function component when\nrendered.</p>",
           "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  );\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"p\">(</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         },
         {
-          "id": 9241,
+          "id": 1751,
           "text": "",
           "comments": "",
           "comments_html": "<p>This is not a valid component because it doesn't return JSX. Functions defined\nwith the <code>function</code> keyword must explicitly return using the <code>return</code> keyword.</p>",
           "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n}\n</code></pre></div>"
+          "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">function</span> <span class=\"nx\">Card</span><span class=\"p\">()</span> <span class=\"p\">{</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>React<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>Component<span class=\"p\">&lt;/</span><span class=\"nt\">p</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">div</span><span class=\"p\">&gt;</span>\n<span class=\"p\">}</span>\n</code></pre></div>"
         }
       ],
       "variables": null,
